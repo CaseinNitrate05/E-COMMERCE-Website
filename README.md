@@ -33,14 +33,14 @@ Features include category browsing, live product search, product detail pages, a
 ## 📂 Project Structure
 
 - `E_Commerce/` — Root project directory  
-- `cart/` — 🛒 Shopping cart app  
-- `core/` — ⚙️ Core settings and main configuration  
-- `E_Commerce/` — 🧠 Django project root (settings and URLs)  
-- `media/` — 🖼️ Uploaded media files  
-- `orders/` — 📦 Orders app  
-- `products/` — 🛍️ Product management app  
-- `users/` — 👤 Authentication and user profiles  
-- `db.sqlite3` — 🗄️ SQLite database  
+  - `cart/` — 🛒 Shopping cart app  
+  - `core/` — ⚙️ Core settings and main configuration  
+  - `E_Commerce/` — 🧠 Django project root (settings and URLs)  
+  - `media/` — 🖼️ Uploaded media files  
+  - `orders/` — 📦 Orders app  
+  - `products/` — 🛍️ Product management app  
+  - `users/` — 👤 Authentication and user profiles  
+  - `db.sqlite3` — 🗄️ SQLite database  
 
 
 ---
