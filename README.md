@@ -47,30 +47,30 @@ Features include category browsing, live product search, product detail pages, a
 
 ## 🚀 Running the Project Locally
 ### 1️⃣ Navigate to your project folder
-cd path/to/your/E_Commerce
+##### cd path/to/your/E_Commerce
 
 ### 2️⃣ Create a virtual environment
-python -m venv venv
+##### python -m venv venv
 
 ### 3️⃣ Activate the virtual environment
 #### On Windows:
-venv\Scripts\activate
+##### venv\Scripts\activate
 #### On Mac/Linux:
-source venv/bin/activate
+##### source venv/bin/activate
 
 ### 4️⃣ Install required dependencies
-pip install -r requirements.txt
+##### pip install -r requirements.txt
 
 #### (If you don't have a requirements.txt yet, you can install the basics)
-pip install django pillow
+##### pip install django pillow
 
 ### 5️⃣ Run database migrations
-python manage.py makemigrations
-python manage.py migrate
+##### python manage.py makemigrations
+##### python manage.py migrate
 
 ### 6️⃣ Create an admin superuser
 python manage.py createsuperuser
 
 ### 7️⃣ Start the development server
-python manage.py runserver
+##### python manage.py runserver
 
