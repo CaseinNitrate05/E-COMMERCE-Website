@@ -59,7 +59,7 @@ python -m venv venv
 ### 3️⃣ Activate the virtual environment
 #### On Windows:
 ``` bash
- venv\Scripts\activate
+venv\Scripts\activate
 ```
 #### On Mac/Linux:
 ``` bash
@@ -87,5 +87,6 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 ### 7️⃣ Start the development server
-##### python manage.py runserver
-
+``` bash
+python manage.py runserver
+``` 
